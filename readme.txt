@@ -36,28 +36,28 @@ There is an example (with PHP code) [over here](https://wordpress.org/plugins/sh
 = Do you have an example of where the Shortcode Callback plugin is used? =
 I built this plugin primarily because I needed a way to inject the "Daily Yield" and "Total Yield" numbers to [my solar power chart page](https://shawnhogan.com/solar-power-chart#utm_source=readme&utm_medium=wordpress&utm_campaign=plugin).
 
-><strong>The shortcode being used:</strong>
+><strong>The shortcode being used:</strong><br>
 >`[callback function="DigitalPointElectricity::total_output" param="daily" include="custom/Electricity.php"]`
 
 > <strong>The `custom/DigitalPointElectricity.php` file being called by the shortcode:</strong><br>
 >`<?php
->``
->`class DigitalPointElectricity`
->`{`
->`    public static function total_output($timeframe)`
->`    {`
->`        $totals = $GLOBALS['memcache']->get('shawnhogan-pv-total');`
->`
->`        if ($timeframe == 'total')`
->`        {`
->`            return $totals->Items[2]->TotalYield;`
->`        }`
->`        elseif ($timeframe == 'daily')`
->`        {`
->`            return $totals->Items[1]->DailyYield;`
->`        }`
->`    }`
->`}`
+><br>
+>`class DigitalPointElectricity`<br>
+>`{`<br>
+>`    public static function total_output($timeframe)`<br>
+>`    {`<br>
+>`        $totals = $GLOBALS['memcache']->get('shawnhogan-pv-total');`<br>
+><br>
+>`        if ($timeframe == 'total')`<br>
+>`        {`<br>
+>`            return $totals->Items[2]->TotalYield;`<br>
+>`        }`<br>
+>`        elseif ($timeframe == 'daily')`<br>
+>`        {`<br>
+>`            return $totals->Items[1]->DailyYield;`<br>
+>`        }`<br>
+>`    }`<br>
+>`}`<br>
 
 == Changelog ==
 = 1.0.0 =
