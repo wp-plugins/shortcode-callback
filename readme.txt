@@ -1,9 +1,10 @@
 === Shortcode Callback ===
 Contributors: digitalpoint
-Tags: shortcode, callback, php, inject, code, execute, digitalpoint
+Tags: shortcode, short code, bbcode, callback, php, inject, code, execute, digitalpoint
 Donate link: https://marketplace.digitalpoint.com/shortcode-callback.3383/item#utm_source=readme&utm_medium=wordpress&utm_campaign=plugin
 Requires at least: 2.5
 Tested up to: 4.2.2
+Stable tag: 1.0.0
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 

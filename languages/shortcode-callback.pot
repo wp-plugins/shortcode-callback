@@ -1,0 +1,44 @@
+# Copyright (C) 2015 Shortcode Callback
+# This file is distributed under the same license as the Shortcode Callback package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shortcode Callback 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shortcode-"
+"callback\n"
+"POT-Creation-Date: 2015-06-18 21:32:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: shortcode-callback.php:98 shortcode-callback.php:108
+msgid "[callback] Function not callable: %s"
+msgstr ""
+
+#: shortcode-callback.php:103
+msgid "[callback] File not found: %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Shortcode Callback"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://marketplace.digitalpoint.com/shortcode-callback.3383/item"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds a [callback] shortcode that allows you to execute an arbitrary PHP "
+"function or method within your post."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Digital Point"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.digitalpoint.com/"
+msgstr ""
