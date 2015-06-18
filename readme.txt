@@ -40,7 +40,7 @@ I built this plugin primarily because I needed a way to inject the "Daily Yield"
 >`[callback function="DigitalPointElectricity::total_output" param="daily" include="custom/Electricity.php"]`
 
 > <strong>The `custom/DigitalPointElectricity.php` file being called by the shortcode:</strong><br>
->`<?php
+>`<?php`<br>
 ><br>
 >`class DigitalPointElectricity`<br>
 >`{`<br>
